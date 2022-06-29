@@ -182,7 +182,7 @@ def comments():
 
 
 
-@insta485.app.route('/uploads/<path:filename>')
+@insta485.app.route('/insta485/templates/uploads/<path:filename>')
 def download_file(filename):
     """Download file."""
     # if 'username' not in session:
@@ -192,7 +192,7 @@ def download_file(filename):
     return flask.send_from_directory(insta485.app.config['UPLOAD_FOLDER'],
                                      filename, as_attachment=True)
     
-@insta485.app.route('/pictures/<path:filename>')
+@insta485.app.route('/insta485/templates/pictures/<path:filename>')
 def download_file1(filename):
     """Download file."""
     # if 'username' not in session:
