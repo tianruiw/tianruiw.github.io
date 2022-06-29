@@ -1,0 +1,81 @@
+.posts{
+	  /*background-color: lightgrey;*/
+  width: 480px;
+  /*height: 1000px;*/
+  border: 1px solid black;
+  /*padding: 5px;*/
+  margin: 20px;
+}
+
+.follow{
+	  /*background-color: lightgrey;*/
+  /*height: 1000px;*/
+  border: 1px solid black;
+  /*padding: 5px;*/
+  margin: 20px;
+}
+
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+
+h1{
+  color: blue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align:center;
+  font-size: 400%;
+  text-decoration-thickness: 5px;
+  text-decoration-style: double;
+  text-transform: capitalize;
+}
+
+body {
+  /* background-color: powderblue; */
+  background-image: url("/pictures/background.jpeg");
+  background-size: 100%;
+  
+}
+
+#head{
+  background-color: yellow;
+  opacity: 0.6;
+}
+
+#clickme{
+  height :8%;
+  width :4% ;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 10px solid #F0F0F0; */
+
+}
+
+/* no use */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#map{
+  background-color: yellow;
+
+}
+
+#button{
+  
+  position: absolute;
+  top: 700px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  
+
+}

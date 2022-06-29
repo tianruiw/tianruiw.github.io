@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    font-weight: normal;
+    text-decoration:dotted rgb(176, 152, 202) underline;
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: papyrus,sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: papyrus,sans-serif;
+    font-size: 30px;
+    
+}
+button{
+    color:rgb(2, 0, 10);
+    background-color: rgb(143, 128, 219);
+}
+
+.post button:hover{
+    color:white;
+}
+p{
+    color:#061602 ;
+    line-height: 2;
+}
+body{
+    background-color:Moccasin;
+}
+a{
+    text-decoration: none;
+    color:rgb(19, 52, 160);
+}
+
+/* .self-intro{ */
+    /* background-color: rgb(255, 215, 128); */
+/* } */
+.self-intro img{
+    width:20%;
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+.self-intro p {
+    margin: 3px 0;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+.nav_bars {
+    display: inline-block;
+}
+
+a:hover{
+    color:white;
+    text-decoration:underline;
+}
+
+button:active{
+    background-color:red;
+}
+
+.education img{
+    width:20%;
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 2200px;
+    margin: auto;
+}
+
+.past-experience img{
+    width:10%;
+    border: thin #c0c0c0 solid;
+    display: block;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}

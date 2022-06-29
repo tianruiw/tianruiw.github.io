@@ -1,0 +1,26 @@
+.posts{
+          /*background-color: lightgrey;*/
+width: 480px;
+/*height: 1000px;*/
+border: 1px solid black;
+/*padding: 5px;*/
+margin: 20px;
+}
+
+.follow{
+          /*background-color: lightgrey;*/
+/*height: 1000px;*/
+border: 1px solid black;
+/*padding: 5px;*/
+margin: 20px;
+}
+
+.container {
+width: 500px;
+clear: both;
+}
+
+.container input {
+width: 100%;
+clear: both;
+}
